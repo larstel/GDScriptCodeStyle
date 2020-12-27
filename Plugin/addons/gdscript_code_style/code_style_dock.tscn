@@ -1,6 +1,4 @@
-[gd_scene load_steps=2 format=2]
-
-[ext_resource path="res://addons/gdscript_style_checker/check_current_script.gd" type="Script" id=1]
+[gd_scene format=2]
 
 [node name="Control" type="Control"]
 margin_right = 40.0
@@ -17,7 +15,6 @@ margin_bottom = 68.0
 margin_right = 140.0
 margin_bottom = 20.0
 text = "Check all scripts"
-script = ExtResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -27,7 +24,6 @@ margin_top = 24.0
 margin_right = 140.0
 margin_bottom = 44.0
 text = "Check current script"
-script = ExtResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -37,9 +33,6 @@ margin_top = 48.0
 margin_right = 140.0
 margin_bottom = 68.0
 text = "Check open scripts"
-script = ExtResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
-[connection signal="pressed" from="VBoxContainer/check_all_scripts" to="VBoxContainer/check_all_scripts" method="_on_Button_pressed"]
-[connection signal="pressed" from="VBoxContainer/check_current_script" to="VBoxContainer/check_current_script" method="_on_Button_pressed"]

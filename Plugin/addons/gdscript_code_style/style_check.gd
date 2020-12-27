@@ -6,7 +6,7 @@ var dock
 func _enter_tree():
 	# Initialization of the plugin goes here.
 	# Load the dock scene and instance it.
-	dock = preload("res://addons/gdscript_style_checker/style_checker_dock.tscn").instance()
+	dock = preload("res://addons/gdscript_code_style/code_style_dock.tscn").instance()
 
 	# Add the loaded scene to the docks.
 	add_control_to_bottom_panel(dock, "Style Checker")
