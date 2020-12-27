@@ -9,7 +9,7 @@ func _enter_tree():
 	dock = preload("res://addons/gdscript_code_style/code_style_dock.tscn").instance()
 
 	# Add the loaded scene to the docks.
-	add_control_to_bottom_panel(dock, "Style Checker")
+	add_control_to_bottom_panel(dock, "CodeStyle")
 	# Note that LEFT_UL means the left of the editor, upper-left dock.
 
 

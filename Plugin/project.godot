@@ -15,7 +15,7 @@ _global_script_class_icons={
 
 [application]
 
-config/name="GDScriptStyleChecker"
+config/name="GDScriptCodeStyle"
 run/main_scene="res://addons/gdscript_code_style/code_style_dock.tscn"
 config/icon="res://icon.png"
 
