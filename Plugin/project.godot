@@ -16,12 +16,12 @@ _global_script_class_icons={
 [application]
 
 config/name="GDScriptStyleChecker"
-run/main_scene="res://addons/gdscript_style_checker/style_checker_dock.tscn"
+run/main_scene="res://addons/gdscript_code_style/code_style_dock.tscn"
 config/icon="res://icon.png"
 
 [editor_plugins]
 
-enabled=PoolStringArray( "gdscript_style_checker" )
+enabled=PoolStringArray( "gdscript_code_style" )
 
 [rendering]
 

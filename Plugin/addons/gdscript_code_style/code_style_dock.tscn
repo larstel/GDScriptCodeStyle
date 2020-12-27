@@ -1,0 +1,38 @@
+[gd_scene format=2]
+
+[node name="Control" type="Control"]
+margin_right = 40.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+margin_right = 140.0
+margin_bottom = 68.0
+
+[node name="check_all_scripts" type="Button" parent="VBoxContainer"]
+margin_right = 140.0
+margin_bottom = 20.0
+text = "Check all scripts"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="check_current_script" type="Button" parent="VBoxContainer"]
+margin_top = 24.0
+margin_right = 140.0
+margin_bottom = 44.0
+text = "Check current script"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="check_open_scripts" type="Button" parent="VBoxContainer"]
+margin_top = 48.0
+margin_right = 140.0
+margin_bottom = 68.0
+text = "Check open scripts"
+__meta__ = {
+"_edit_use_anchors_": false
+}
